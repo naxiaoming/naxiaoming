@@ -351,7 +351,7 @@ function img(){
     top:0
   })
   for(var i=0;i<9;i++){
-    $(".box").append("<img src='/images/"+(i%8+1)+".jpg' />")
+    $(".box").append("<img src='../../images/"+(i%8+1)+".jpg' />")
   }
   $(".box img").css({
     position:"absolute",
